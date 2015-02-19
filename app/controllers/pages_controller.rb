@@ -5,8 +5,8 @@ class PagesController < ApplicationController
 
   def hello
     name = params[:name]
-    @first_name = name.split.first
-    @last_name = name.split.last
+    @first_name = name.split().first()
+    @last_name = name.split().last()
   end
 
   def bye

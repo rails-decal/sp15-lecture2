@@ -1,7 +1,7 @@
 <h1>Hey Mr. <%= @last_name %>,</h1>
 <h2>Can I call you <%= @first_name %>?</h2>
 
-<%= form_tag action: :bye do %>
-  <%= text_field_tag :yes_no %>
-  <%= button_tag :submit %>
+<%= form_tag(action: :bye) do %>
+  <%= text_field_tag(:yes_no) %>
+  <%= button_tag(:submit) %>
 <% end %>
