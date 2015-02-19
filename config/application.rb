@@ -15,7 +15,7 @@ module Sp15Lecture2
       generate.controller_specs false
       generate.routing_specs false
       generate.stylesheets false
-      generate.test_framework :rspec
+      # generate.test_framework :rspec
       generate.view_specs false
     end
     # Settings in config/environments/* take precedence over those specified here.
