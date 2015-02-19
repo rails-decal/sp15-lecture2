@@ -30,6 +30,7 @@ gem 'spring',        group: :development
 
 # Gems to help development
 gem 'awesome_print'
+gem 'pry-rails'
 gem 'annotate'
 gem 'better_errors'
 gem 'binding_of_caller'
