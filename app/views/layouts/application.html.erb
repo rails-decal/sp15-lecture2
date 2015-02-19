@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sp15 Lecture2</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <ul class="nav nav-pills pull-right">
+        <li><%= link_to 'This is a link', '#' %></li>
+      </ul>
+      <h3 class="text-muted">Week 8 Lecture</h3>
+    </div>
+
+    <%= yield %>
+  </div>
+</body>
+</html>
