@@ -1,2 +1,7 @@
-<h1>Pages#hello</h1>
-<p>Find me in app/views/pages/hello.html.erb</p>
+<h1>Hey Mr. <%= @last_name %>,</h1>
+<h2>Can I call you <%= @first_name %>?</h2>
+
+<%= form_tag(action: :bye) do %>
+  <%= text_field_tag(:yes_no) %>
+  <%= button_tag(:submit) %>
+<% end %>
